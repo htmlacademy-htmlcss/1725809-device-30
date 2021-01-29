@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/30/user/1725809).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Коттов](https://htmlacademy.ru/profile/eugene_kotov).
 
 ---
 
