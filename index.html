@@ -20,7 +20,7 @@
       <nav>
         <ul>
           <li>
-            <a href="#">Каталог товаров</a>
+            <a href="catalog.html">Каталог товаров</a>
           </li>
           <li>
             <a href="#">Доставка</a>
@@ -42,7 +42,7 @@
           <ul>
             <li>
               <div>
-                <img src="#"> <!-- левая часть -->
+                <img src="#" alt="Селфи-палка"> <!-- левая часть -->
               </div>
               <div> <!-- правая часть -->
                 <p>
@@ -55,20 +55,6 @@
                 </p>
                 <div>
                   <a href="#">Подробнее</a>
-                  <!-- С точками ещё не разобрался -->
-                  <ul>
-                    <li>
-                      <label>1
-                      <input type="radio" name="slider" checked>
-                      </label>
-                      <label>2
-                      <input type="radio" name="slider">
-                      </label>
-                      <label>3
-                      <input type="radio" name="slider">
-                      </label>
-                    </li>
-                  </ul>
                 </div>
                 <table>
                   <tr>
@@ -89,7 +75,19 @@
             <li> <!-- Третий слайдер -->
             </li>
           </ul>
-
+          <ul>
+            <li>
+              <label>1
+                <input type="radio" name="slider" checked>
+              </label>
+              <label>2
+                <input type="radio" name="slider">
+              </label>
+              <label>3
+                <input type="radio" name="slider">
+              </label>
+            </li>
+          </ul>
         </div>
       </section>
       <section>
@@ -138,19 +136,13 @@
         <div>
           <ul>
             <li>
-              <form>
                 <button>Подробности</button>
-              </form>
             </li>
             <li>
-              <form>
                 <button>Гарантия</button>
-              </form>
             </li>
             <li>
-              <form>
                 <button>Кредит</button>
-              </form>
             </li>
           </ul>
           <ul>
@@ -264,7 +256,7 @@
       </div>
       <div>
         <label for="write-text">Текст письма:</label>
-        <textarea type="text" id="write-text" placeholder="В свободной форме"></textarea>
+        <textarea name="text" id="write-text" placeholder="В свободной форме"></textarea>
       </div>
       <button type="submit">Отправить</button>
     </section>
