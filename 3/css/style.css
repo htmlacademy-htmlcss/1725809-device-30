@@ -1,0 +1,118 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroyextrabold.woff2") format("woff2"),
+      url("/fonts/gilroyextrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroylight.woff2") format("woff2"),
+      url("/fonts/gilroylight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open sans";
+  src: url("/fonts/opensans.woff2") format("woff2"),
+      url("/fonts/opensans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open sans";
+  src: url("/fonts/opensanslight.woff2") format("woff2"),
+      url("/fonts/opensanslight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-dark: #363636;
+  --basic-grey: #464646;
+  --basic-half-grey: #7e7e7e;
+  --basic-grey-light: #e5e5e5;
+  --basic-white: #FFFFFF;
+
+  --special-green: #91c92f;
+  --special-yellow-dark: #f0c52e;
+  --special-yellow-light: #f7e296;
+
+  --status-pink-light: #f6dada;
+}
+
+/* Global */
+
+body  {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+.main-header-wrapper {
+  font-family: "Open sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+.main-header-navigation {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.main-header-menu {
+  list-style: none;
+}
+.catalog-menu-item{
+  list-style: none;
+}
+
+/* header hover-focus */
+.main-header-wrapper a:hover,
+.main-header-navigation a:hover,
+.catalog-menu-item a:hover,
+.main-header-menu a:hover{
+  opacity: 60%;
+}
+.main-header-wrapper a:focus,
+.main-header-navigation a:focus,
+.catalog-menu-item a:focus,
+.main-header-menu a:focus{
+  opacity: 30%;
+}
+/* slider */
+.slider-title{
+  font-size: 47px;
+  line-height: 58px;
+}
+.slider-text{
+  font-family: "Open sans",Arial sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+.parameters{
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+}
+.parameters-name{
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+}
