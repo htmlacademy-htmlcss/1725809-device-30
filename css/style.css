@@ -319,3 +319,154 @@ img{
   text-transform: uppercase;
   color: var(--basic-black);
 }
+
+/* Crumbs */
+
+.main-title{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+}
+.crumbs-list{
+  list-style: none;
+}
+.crumbs-item{
+  font-family: "Open sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+}
+.crumbs-item a{
+  text-decoration: none;
+  color: var(--basic-black);
+  opacity: 30%;
+}
+.crumbs-item a:hover{
+  opacity: 60%;
+}
+.crumbs-item a:focus{
+  opacity: 10%;
+}
+
+/* filter-header */
+
+.filter-header{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.catalog-sort{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.catalog-sort-links{
+  font-family: "Open sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  list-style: none;
+}
+.catalog-sort-item a{
+  text-decoration: none;
+  color: var(--basic-black);
+  opacity: 30%;
+}
+.catalog-sort-item a:hover{
+  color: var(--basic-black);
+  opacity: 60%;
+}
+.catalog-sort-item a:focus{
+  color: var(--basic-black);
+}
+.catalog-sort-item .current>a{
+  color: var(--basic-black);
+}
+.catalog-sort-buttons{
+  list-style: none;
+}
+.catalog-sort-buttons a{
+  text-decoration: none;
+}
+
+/* aside filter */
+.filter-group{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+}
+.color-list{
+  list-style: none;
+}
+.color-list-item{
+  list-style: none;
+}
+.bluetooth-list{
+  list-style: none;
+}
+
+/* Catalog products */
+
+.products-list{
+  list-style: none;
+}
+.product-info-wrapper a{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: var(--basic-black);
+}
+.product-price{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+.add-to-compare{
+  font-family: "Open sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+}
+.catalog-nav{
+  background-color: #EBEBEB;
+}
+.pagination-list{
+  list-style: none;
+}
+.pages-list{
+  list-style: none;
+}
+.page>a{
+  color: var(--basic-black);
+  text-decoration: none;
+  opacity: 30%;
+}
+.page .current>a{
+  opacity: 100%;
+}
+.catalog-nav-button{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+}
+.catalog-nav-button a{
+  color: var(--basic-black);
+  text-decoration: none;
+}
+.catalog-nav-button a:hover{
+  background-color: #D9D9D9;
+}
+.catalog-nav-button a:focus{
+  background-color: #D9D9D9;
+  opacity: 30%;
+}
