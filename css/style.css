@@ -357,6 +357,7 @@ img{
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  background-color: #DCDCDC;
 }
 .catalog-sort{
   font-family: "Gilroy", Arial, sans-serif;
@@ -364,6 +365,7 @@ img{
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  background-color: var(--basic-grey-light);
 }
 .catalog-sort-links{
   font-family: "Open sans", Arial, sans-serif;
@@ -410,7 +412,9 @@ img{
 .bluetooth-list{
   list-style: none;
 }
-
+.left-side{
+  background-color: var(--basic-grey-light);
+}
 /* Catalog products */
 
 .products-list{
@@ -436,6 +440,9 @@ img{
   font-size: 13px;
   line-height: 18px;
 }
+
+/* Catalog navigation  */
+
 .catalog-nav{
   background-color: #EBEBEB;
 }
