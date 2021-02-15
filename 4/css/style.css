@@ -121,6 +121,9 @@ img{
 .main-header-menu a:focus{
   opacity: 30%;
 }
+.main-header-login{
+  opacity: 30%;
+}
 
 /* slider */
 
@@ -378,6 +381,7 @@ img{
   text-decoration: none;
   color: var(--basic-black);
   opacity: 30%;
+  text-transform: none;
 }
 .catalog-sort-item a:hover{
   color: var(--basic-black);
@@ -465,6 +469,7 @@ img{
   font-weight: 800;
   font-size: 16px;
   line-height: 20px;
+  text-transform: uppercase;
 }
 .catalog-nav-button a{
   color: var(--basic-black);
