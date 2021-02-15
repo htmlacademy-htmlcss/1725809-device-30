@@ -48,11 +48,15 @@
 
 /* Global */
 
-body{
+.page-body{
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: 800;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
 }
 img{
   max-width: 100%;
@@ -60,6 +64,61 @@ img{
 }
 .visually-hidden{
   visibility: hidden;
+}
+
+/* Grid */
+
+.page {
+  height: 100%;
+}
+.main-header-wrapper{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+.main-header-navigation{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+.slider{
+  width: 1024px;
+  min-height: 506px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -146px;
+}
+.categories-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 40px;
+}
+.services{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.brands-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 40px;
+}
+.about-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main-footer{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* Container */
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -121,7 +180,7 @@ img{
 .main-header-menu a:focus{
   opacity: 30%;
 }
-.main-header-login{
+.main-header-logout{
   opacity: 30%;
 }
 
