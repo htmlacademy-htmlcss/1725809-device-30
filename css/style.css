@@ -73,19 +73,18 @@ img{
 }
 .main-header-wrapper{
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.main-header-navigation{
+.main-header-menu{
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.slider{
+.slider-item{
   width: 1024px;
   min-height: 506px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: -146px;
 }
 .categories-list{
   display: grid;
@@ -94,9 +93,9 @@ img{
   padding: 0;
   column-gap: 40px;
 }
-.services{
+.services-container{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 .brands-list{
   display: grid;
@@ -112,6 +111,11 @@ img{
 .main-footer{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+}
+.footer-links-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 /* Container */
