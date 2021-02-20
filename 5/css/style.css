@@ -299,7 +299,22 @@ img{
 .footer-menu-item:nth-child(2){
     margin: 0 36px;
 }
-
+.footer-wrapper-bottom{
+  display: flex;
+  margin-top: 70px;
+}
+.social-button-list{
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+.footer-social{
+  margin: 0 auto;
+}
+.social-button-logo{
+  width: 80px;
+  text-align: right;
+}
 /* Grid and flex  catalog*/
 
 .catalog-page header{
@@ -771,6 +786,7 @@ img{
 }
 .catalog-sort-buttons a{
   text-decoration: none;
+  font-size: 10px;
 }
 
 /* aside filter */
@@ -834,6 +850,18 @@ img{
 }
 .pages-list{
   list-style: none;
+}
+.pages-list .page{
+  font-family: "Gilroy", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  opacity: 30%;
+}
+.pages-list .current{
+ opacity: 100%;
 }
 .page>a{
   color: var(--basic-black);
